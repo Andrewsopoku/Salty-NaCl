@@ -1,0 +1,37 @@
+{
+  "name": "salty-nacl",
+  "version": "1.0.2",
+  "description": "'A tweetnacl encryption that you would understand. It allows you to pass passphrase in generating secret key, public key. The keys are presented in a human readable form'",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blockafrik/Salty-NaCl.git"
+  },
+  "keywords": [
+    "salt",
+    "salty",
+    "saltynacl",
+    "salty-nacl",
+    "encryption",
+    "signature",
+    "decryption",
+    "verify",
+    "crypto"
+  ],
+  "author": "Andrews Agyemang Opoku",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blockafrik/Salty-NaCl/issues"
+  },
+  "homepage": "https://github.com/blockafrik/Salty-NaCl#readme",
+  "dependencies": {
+    "atob": "^2.0.3",
+    "base64-arraybuffer-converter": "^1.0.3",
+    "btoa": "^1.1.2",
+    "string-arraybuffer": "^1.0.4",
+    "tweetnacl": "^1.0.0"
+  }
+}
